@@ -20,7 +20,7 @@ public class StoreController {
     }
 
     @GetMapping("/add")
-    public List<Integer> add(@RequestParam int id) {
+    public List<Integer> add( @RequestParam int id ) {
         this.id = id;
         return bucketService.add(id);
     }

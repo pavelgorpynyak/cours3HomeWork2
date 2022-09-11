@@ -8,6 +8,7 @@ import java.util.List;
 
 @Service
 @SessionScope
+
 public class BucketServiceImpl implements BucketService {
 
     private final Item item;

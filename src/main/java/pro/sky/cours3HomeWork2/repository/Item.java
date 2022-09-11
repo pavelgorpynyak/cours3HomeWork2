@@ -8,6 +8,7 @@ import java.util.List;
 
 @Service
 @Scope
+
 public class Item {
 
     private final List<Integer> bucket = new ArrayList<>();
