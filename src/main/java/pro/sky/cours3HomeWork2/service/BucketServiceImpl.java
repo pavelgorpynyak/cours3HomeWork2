@@ -9,7 +9,6 @@ import java.util.Collections;
 import java.util.List;
 
 @Service
-@Scope
 
 public class BucketServiceImpl implements BucketService {
 
