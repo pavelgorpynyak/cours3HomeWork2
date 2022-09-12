@@ -1,13 +1,15 @@
 package pro.sky.cours3HomeWork2.repository;
 
 import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
+@Component
+@SessionScope
 
-@Service
-@Scope
 public class Item {
 
     private final List<Integer> bucket = new ArrayList<>();
