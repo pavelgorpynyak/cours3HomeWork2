@@ -2,12 +2,13 @@ package pro.sky.cours3HomeWork2.repository;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.annotation.SessionScope;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Scope
+@SessionScope
 
 public class Item {
 
